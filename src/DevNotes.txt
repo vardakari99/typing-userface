@@ -1,0 +1,6 @@
+26 February 2022
+1. UI Finalisation
+2. Landing Page Form Validation
+3. Create Link from Landing Page submit button to the Tester Page (Redirect with react-router-dom, first do routing)
+4. Create CRUD Application in another parent directory (add this to that folder later) (side note: use this repository for dev CRUD app, we will make new one when needed to deploy)
+

@@ -1,0 +1,102 @@
+.tester{
+    background-color:  #000;
+    padding: 30px 44px;
+}
+.display-card{
+    border-radius: 22px;
+    border: 1px solid #354b60;
+    max-width: 280px;
+}
+.menu-btn{
+    background-color: #fff !important;
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 8px!important;
+    padding: 0.3rem 0.6rem 0.3rem !important;
+    font-size: 14px !important;
+}
+.menu-btn:active{
+    color: #fff !important;
+    background-color: #0062cc !important;
+    border-color: #005cbf !important;
+}
+.menu-btn:focus{
+    color: #fff !important;
+    background-color: #14c39a !important;
+    border-color: #14c39a !important;
+}
+.task-card{
+    border-radius: 15px !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+}
+.form-control{
+    width: 80% !important;
+}
+.user-typebox{
+    height: 3em !important;
+    padding: 2.5rem 1rem !important;
+    font-size: 1.25rem !important;
+    border-radius: .5rem !important;
+    box-shadow: 0 9px 24px rgb(0 0 0 / 12%), 0 9px 24px rgb(0 0 0 / 12%);
+    line-height: 4.375 !important;
+    margin-top: 10px;
+}
+.time-counter{
+    position: absolute;
+    left: 13.2em;
+    top: 14.4rem;
+    font-size: 24px;
+    color: #fff;
+}
+.word-section{
+    height: 6em;
+    line-height: 2em;
+    border-radius: .25em;
+    position: relative;
+    overflow: hidden;
+    font-size: 22px;
+}
+.word-section>span{
+    display: inline-block;
+    margin-left: .2em;
+}
+.user-typebox::placeholder{
+    color: #25c7a1 !important;
+    font-size: 32px !important;
+}
+.user-typebox:focus{
+    box-shadow: 0 0 0 0.1rem #9b50ba !important;
+}
+.test-indicator{
+    background-color: #ffd000;
+    position: absolute;
+    left: 8%;
+    top: 75%;
+    border-radius: 5px;
+    z-index: 99;
+    transform: translateX(350%);
+    animation: 1s linear 1s infinite;
+}
+.test-indicator:after{
+    content: "";
+    border-style: solid;
+    border-width: 7px 5px 0;
+    border-color: #ffd000 transparent transparent;
+    top: 100%;
+    position: absolute;
+    left: 2%;
+    transform: translateX(350%);
+}
+.current-word{
+    text-decoration: underline;
+}
+.active{
+    color: #9b50ba;
+}
+.error{
+    color: #dd2525;
+}
+.underline{
+    text-decoration: underline 3px solid #2fd8d8;
+}
